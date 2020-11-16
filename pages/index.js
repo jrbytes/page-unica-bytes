@@ -11,6 +11,8 @@ function Home() {
     <>
       <p>Hello world, incremento {contador}</p>
       <button onClick={somar}>Incrementar número</button>
+      <hr />
+      <a href="./cep">Cep promise</a>
     </>
   )
 }
